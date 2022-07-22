@@ -1,0 +1,27 @@
+.container-part{
+   border: 2px solid black; 
+   width: 300px;
+   height: 500px;
+}
+@media(min-width:350px){
+    .container-part{
+        border: 2px solid red; 
+       max-width:400px;
+        height: 600px; 
+    }  
+}
+@media(min-width:567px){
+    .container-part{
+        border: 2px solid green; 
+       max-width:600px;
+        height: 600px; 
+    }  
+}
+
+@media(min-width:768px){
+    .container-part{
+        border: 2px solid rgb(203, 238, 8); 
+       max: width 720px;
+        height: 600px; 
+    }  
+}
