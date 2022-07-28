@@ -1,27 +1,110 @@
+.overall-container{
+    width: 100%;
+
+}
 .container-part{
-   border: 2px solid black; 
-   width: 300px;
-   height: 500px;
+    height: 500px;
+    width: 100%;
+    outline: 2px solid  red;
 }
-@media(min-width:350px){
+/*media quari 350px*/
+@media (min-width:350px){
     .container-part{
-        border: 2px solid red; 
-       max-width:400px;
-        height: 600px; 
-    }  
+        height: 500px;
+        width: 100%;
+
+    }
+.lang-part ul li{
+   display: none;
 }
-@media(min-width:567px){
-    .container-part{
-        border: 2px solid green; 
-       max-width:600px;
-        height: 600px; 
-    }  
+.hidden-part{
+    display: flex;
+    justify-content: space-between;
+}
+.class-part{
+    color: #413e66;
+     font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+.style-part{
+
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 4;
+    font-size: 15px;
+
+}
+.style-part i{
+margin-right: 10px;
+}
+.class-rapid img{
+height: 200px;
+width: 200px;
+margin-top: 20px;
+}
+.class-rapid{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.rapid-rapid p{
+    text-align: center;
+    color: #413e66;
+    font-size: 34px;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.rapid-rapid button{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1bb1dc;
+    color: #fff;
+}
+.rapid{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    height: auto;
+    position: relative;
+    background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
+    /* background-size: cover; */
+   
+    
+}
+/* .overall{
+    background: #f5f8fd url(../img/intro-bg.jpg) center top no-repeat;
+    background-size: cover;
+    z-index: 1; */
 }
 
-@media(min-width:768px){
-    .container-part{
-        border: 2px solid rgb(203, 238, 8); 
-       max: width 720px;
-        height: 600px; 
-    }  
-}
+
+
+
+
+
+
+
+
+
+
+
+
